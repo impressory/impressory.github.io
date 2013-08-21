@@ -9,24 +9,28 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 200;	
 }
 
+.lead {
+  font-family: Georgia, serif;
+  font-size: 120%;
+}
+
 body {
   font-family: source-sans-pro, sans-serif;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .jumbo {	
 
 	h1 {
-		font-size: 96px;
-		font-weight: 100;
+		font-size: 72px;
 	}
 
-	height: 400px;
+	height: 440px;
 	margin: -20px 0 0 0;
 	padding: 60px 0 0 40px;
 
 	color: white;
-	
+	font-weight: 100;
 	background: url('/images/sky.jpg');
 	background-size: 100% 100%;	
 
@@ -38,11 +42,58 @@ body {
 
 .navbar {
 	background-color: rgba(170, 204, 255, 0.3);	
+
+	img.logo {
+	  max-height: 40px;
+	  margin-top: -15px;
+	  margin-bottom: -10px;
+	}
 }
+
+.navbar.secondary {
+	margin-top: -20px;
+	background-color: rgba(70, 124, 255, 0.9);
+	border-radius: 0;
+	min-height: 40px;
+
+	.navbar-nav li {
+	  	a {
+	  		padding: 10px 15px 10px 15px;
+			color: white;
+		}
+	} 
+	
+}
+
+
+.screenshot-big {
+	max-height: 400px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carousel-caption {
+	
+	background-color: rgba(0,0,0,0.5);
+}
+
+
 
 .lblue {
 	background-color: rgba(170, 204, 255, 0.1);	
 }
+
+.gray {
+	border-left: 5px solid #bbbbbb;
+	background-color: rgba(204, 204, 204, 0.3);	
+}
+
+.orange {
+	border-left: 5px solid #eebb99;
+	background-color: rgba(255, 204, 170, 0.3);	
+}
+
 
 .blue {
 	border-left: 5px solid #99bbee;
@@ -64,7 +115,7 @@ body {
 	padding: 15px;
 	margin: 15px;
 	text-align: center;
-	font-size: 21px;		
+	font-size: 120%;		
 
 	i {
 	  float: left;
